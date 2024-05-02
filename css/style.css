@@ -412,53 +412,6 @@ justify-content {
 /* Testimony */
 
 .testi_section {
-  background: rgba(220, 229, 236, 1);
-  background: -moz-linear-gradient(
-    top,
-    rgba(220, 229, 236, 1) 0%,
-    rgba(220, 229, 236, 1) 0%,
-    rgba(220, 229, 236, 1) 0%,
-    rgba(220, 229, 236, 1) 46%,
-    rgba(255, 255, 255, 1) 46%,
-    rgba(255, 255, 255, 1) 100%
-  );
-  background: -webkit-gradient(
-    left top,
-    left bottom,
-    color-stop(0%, rgba(220, 229, 236, 1)),
-    color-stop(0%, rgba(220, 229, 236, 1)),
-    color-stop(0%, rgba(220, 229, 236, 1)),
-    color-stop(46%, rgba(220, 229, 236, 1)),
-    color-stop(46%, rgba(255, 255, 255, 1)),
-    color-stop(100%, rgba(255, 255, 255, 1))
-  );
-  background: -webkit-linear-gradient(
-    top,
-    rgba(220, 229, 236, 1) 0%,
-    rgba(220, 229, 236, 1) 0%,
-    rgba(220, 229, 236, 1) 0%,
-    rgba(220, 229, 236, 1) 46%,
-    rgba(255, 255, 255, 1) 46%,
-    rgba(255, 255, 255, 1) 100%
-  );
-  background: -o-linear-gradient(
-    top,
-    rgba(220, 229, 236, 1) 0%,
-    rgba(220, 229, 236, 1) 0%,
-    rgba(220, 229, 236, 1) 0%,
-    rgba(220, 229, 236, 1) 46%,
-    rgba(255, 255, 255, 1) 46%,
-    rgba(255, 255, 255, 1) 100%
-  );
-  background: -ms-linear-gradient(
-    top,
-    rgba(220, 229, 236, 1) 0%,
-    rgba(220, 229, 236, 1) 0%,
-    rgba(220, 229, 236, 1) 0%,
-    rgba(220, 229, 236, 1) 46%,
-    rgba(255, 255, 255, 1) 46%,
-    rgba(255, 255, 255, 1) 100%
-  );
   background: linear-gradient(
     to bottom,
     rgba(220, 229, 236, 1) 0%,
@@ -468,7 +421,6 @@ justify-content {
     rgba(255, 255, 255, 1) 46%,
     rgba(255, 255, 255, 1) 100%
   );
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#dce5ec', endColorstr='#ffffff', GradientType=0 );
   margin-bottom: 2em;
 }
 .testi_section .innerBlock {
@@ -537,7 +489,7 @@ justify-content {
 }
 .testi_section .innerBlock .slick-dots li {
   /* display: inline-block !important; */
-  margin: 0 -3px;
+  margin: 0 2px;
   vertical-align: middle;
   list-style-type: none;
 }
@@ -548,9 +500,9 @@ justify-content {
   border-radius: 50%;
   border: 0;
   color: transparent;
-  outline: 0;
+  /* outline: 0;
   -webkit-appearance: none;
-  padding: 0;
+  padding: 0; */
 }
 .testi_section .innerBlock .slick-dots li.slick-active button {
   background: #51a637;
