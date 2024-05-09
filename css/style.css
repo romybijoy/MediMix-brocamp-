@@ -19,6 +19,10 @@ body {
   font-family: "general_sansregular";
 }
 
+a {
+  text-decoration: none !important;
+}
+
 .topHeader {
   color: white;
   background-color: #4f7044;
@@ -30,7 +34,7 @@ body {
 }
 
 .container {
-  padding-left: 0 !important;
+  padding-left: 5 !important;
 }
 .font_Josefin {
   font-family: "Josefin Sans", sans-serif;
@@ -78,7 +82,6 @@ h2 {
   text-align: center;
   font-size: 12px;
   padding-top: 2px;
-  /* right: 11px; */
 }
 
 .topHeader ul li {
@@ -583,6 +586,12 @@ ul {
 .site-footer .menu li {
   margin-bottom: 5px;
 }
+.site-footer .menu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
 .site-footer .menu li a {
   color: #848d94;
   font-size: 15px;
@@ -679,18 +688,6 @@ ul {
   .mt-5 {
     margin-top: 1em !important;
   }
-  .innerPageContentsBlock {
-    padding: 2em 0 0;
-  }
-  .innerPageBannerBlock .bannerContents h1 {
-    font-size: 1em;
-  }
-  .woocommerce div.product form.cart {
-    margin-bottom: 2em;
-  }
-  .related.products {
-    padding-bottom: 1em;
-  }
   .combo-offer-section .slick-prev {
     left: 0 !important;
   }
@@ -698,9 +695,13 @@ ul {
     right: 0 !important;
   }
   .site-footer input[type="email"] {
-    width: 75%;
+    width: 70%;
   }
   .site-footer input[type="submit"] {
-    width: 25%;
+    width: 30%;
+  }
+
+  .submit {
+    font-size: 0.838em !important;
   }
 }
